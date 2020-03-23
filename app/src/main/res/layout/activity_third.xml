@@ -8,10 +8,10 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
-        android:background="@color/colorRed"
         android:layout_width="0dp"
-        android:gravity="center"
         android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorRed"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -45,12 +45,11 @@
             android:background="@drawable/qstnbar"
             android:padding="150dp"
             android:text="TextView"
-            android:textSize="25dp"
-            android:textColor="@color/colorBlack" />
+            android:textColor="@color/colorBlack"
+            android:textSize="25dp" />
 
 
     </LinearLayout>
-
 
 
     <Button
@@ -61,17 +60,16 @@
         android:layout_marginTop="67dp"
         android:layout_marginEnd="162dp"
         android:layout_marginBottom="44dp"
-        android:text="KNOW MORE"
         android:background="@drawable/rounded_corners"
         android:backgroundTint="@color/colorRed"
+        android:text="KNOW MORE"
         android:textColor="@color/colorWhite"
-        android:textStyle="bold"
         android:textSize="25dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/options_container"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/options_container" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,10 +8,10 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
-        android:background="@color/colorRed"
         android:layout_width="0dp"
-        android:gravity="center"
         android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorRed"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -45,8 +45,8 @@
             android:background="@drawable/qstnbar"
             android:padding="50dp"
             android:text="TextView"
-            android:textSize="20dp"
-            android:textColor="@color/colorBlack" />
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/no_indicator"
@@ -77,8 +77,8 @@
             android:layout_margin="15dp"
             android:background="@drawable/rounded_borders"
             android:backgroundTint="#989898"
-            android:text="Button"
-            android:onClick="checkAnswer"/>
+            android:onClick="checkAnswer"
+            android:text="Button" />
 
         <Button
             android:id="@+id/opt2"
@@ -87,9 +87,8 @@
             android:layout_margin="15dp"
             android:background="@drawable/rounded_borders"
             android:backgroundTint="#989898"
-            android:text="Button"
-            android:onClick="checkAnswer"/>
-
+            android:onClick="checkAnswer"
+            android:text="Button" />
 
 
     </LinearLayout>
@@ -102,17 +101,17 @@
         android:layout_marginTop="67dp"
         android:layout_marginEnd="162dp"
         android:layout_marginBottom="44dp"
-        android:text="NEXT"
         android:background="@drawable/rounded_corners"
         android:backgroundTint="@color/colorRed"
+        android:onClick="nextQuiz"
+        android:text="NEXT"
         android:textColor="@color/colorWhite"
-        android:textStyle="bold"
         android:textSize="25dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/options_container"
-        android:onClick="nextQuiz"/>
+        app:layout_constraintTop_toBottomOf="@+id/options_container" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

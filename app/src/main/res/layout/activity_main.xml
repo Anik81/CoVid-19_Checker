@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:text="COVID 19 TESTER"
+            android:text="COVID-19 CHECKER"
             android:textColor="@color/colorWhite"
             android:textSize="40dp"
             android:textStyle="bold" />
@@ -53,7 +53,7 @@
         android:background="@drawable/rounded_corners"
         android:backgroundTint="@color/colorRed"
         android:stateListAnimator="@null"
-        android:text="EXIT"
+        android:text="Extra Info"
         android:textColor="@color/colorWhite"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
